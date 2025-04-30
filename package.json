@@ -1,0 +1,32 @@
+{
+  "name": "negotiator",
+  "description": "HTTP content negotiation",
+  "version": "0.2.3",
+  "author": "Denis Rylikov <denis.rylikov@protonmail.com>",
+  "contributors": [" <> ()"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/negotiator.git"
+  },
+  "keywords": [
+    "http",
+    "content negotiation",
+    "accept",
+    "accept-language",
+    "accept-encoding",
+    "accept-charset"
+  ],
+  "engine": "node >= 0.6",
+  "license": "MIT",
+  "devDependencies": {
+    "nodeunit": "0.6.x"
+  },
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "main": "lib/negotiator.js"
+}
